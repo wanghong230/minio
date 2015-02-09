@@ -120,8 +120,7 @@
             <div class="section">
               <h1 id="minio-api">Minio API</h1>
 <h2 id="general-overview">General Overview</h2>
-<p>Minio stores and retrieves data in a logical format based upon REST
-based URLs.</p>
+<p>Minio stores and retrieves data in a logical format based upon REST based URLs.</p>
 <h3 id="note-about-examples">Note about examples:</h3>
 <p>XML and JSON results have been prettified for readability. As a result, the Content-Length may not match exactly.</p>
 <pre><code>Form:
@@ -199,6 +198,7 @@ Content-Length: 223
 }
 </code></pre>
 
+<p>NOTE: <code>Accept: application/json</code> is Minio Object Server specific</p>
 <h2 id="get-bucket">GET /{bucket}/</h2>
 <p>Lists objects in a bucket.</p>
 <p>Example:</p>
