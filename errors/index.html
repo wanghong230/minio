@@ -11,14 +11,14 @@
   
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
-  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
-  <link rel="stylesheet" href="../../css/highlight.css">
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
 
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-  <script type="text/javascript" src="../../js/highlight.pack.js"></script>
-  <script src="../../js/theme.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script>
+  <script src="../js/theme.js"></script>
 
   <style>
     body {font-size: 90%;}
@@ -34,7 +34,7 @@
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
       <div class="wy-side-nav-search">
-        <a href="../.." class="icon icon-home"> Minio Documentation</a>
+        <a href=".." class="icon icon-home"> Minio Documentation</a>
         
       </div>
 
@@ -42,14 +42,28 @@
       <ul class="current">
     
         
-            <li class="toctree-l1 ">
-                <a class="" href="../../introduction">Minio API Reference</a>
-            </li>
+        <span>Minio</span>
+            
+                <li class="toctree-l1 ">
+                    <a class="" href="../architecture">Architecture</a>
+                    
+                </li>
+            
+                <li class="toctree-l1 ">
+                    <a class="" href="../contributing">Contribute</a>
+                    
+                </li>
+            
         
 
     
         
         <span>API</span>
+            
+                <li class="toctree-l1 ">
+                    <a class="" href="../introduction">Reference</a>
+                    
+                </li>
             
                 <li class="toctree-l1 ">
                     <a class="" href="../minio">REST API</a>
@@ -73,29 +87,7 @@
                 </li>
             
                 <li class="toctree-l1 ">
-                    <a class="" href="../manage">Management</a>
-                    
-                </li>
-            
-        
-
-    
-        
-        <span>Architecture</span>
-            
-                <li class="toctree-l1 ">
-                    <a class="" href="../../architecture">Overview</a>
-                    
-                </li>
-            
-        
-
-    
-        
-        <span>Contributing</span>
-            
-                <li class="toctree-l1 ">
-                    <a class="" href="../../contributing">Overview</a>
+                    <a class="" href="../manage">Management API</a>
                     
                 </li>
             
@@ -113,7 +105,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="icon icon-reorder"></i>
-        <a href="../.."></a>
+        <a href=".."></a>
       </nav>
 
       
@@ -121,7 +113,7 @@
         <div class="rst-content">
           <div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="../..">Docs</a> &raquo;</li>
+    <li><a href="..">Docs</a> &raquo;</li>
     <li>Error Responses</li>
       <li class="wy-breadcrumbs-aside">
         
@@ -131,9 +123,9 @@
 </div>
           <div role="main">
             <div class="section">
-              <h1 id="list-of-error-responses">List of Error Responses</h1>
+              <h3 id="list-of-error-responses">List of Error Responses</h3>
 <p>This section provides information about Minio API errors. XML and JSON results have been prettified for readability. As a result, the Content-Length may not match exactly for both styles</p>
-<h3 id="error-codes-table">Error Codes Table</h3>
+<h4 id="error-codes-table">Error Codes Table</h4>
 <p>The following table lists Minio error codes.</p>
 <table>
 <thead>
@@ -256,7 +248,7 @@
 </tr>
 </tbody>
 </table>
-<h3 id="rest-error-responses">REST Error Responses</h3>
+<h4 id="rest-error-responses">REST Error Responses</h4>
 <p>When there is an error, the header information contains:</p>
 <ul>
 <li>Content-Type: application/xml or application/json (Depending on <code>Accept</code> HTTP header)</li>
@@ -310,7 +302,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../manage" class="btn btn-neutral float-right" title="Management"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../manage" class="btn btn-neutral float-right" title="Management API"/>Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
         <a href="../minio" class="btn btn-neutral" title="REST API"><span class="icon icon-circle-arrow-left"></span> Previous</a>
